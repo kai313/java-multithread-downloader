@@ -19,7 +19,7 @@ String qqApp = "http://dldir1.qq.com/qqfile/qq/QQ2013/QQ2013Beta2.exe";
 String saveDirectory = "";
 String newName = "qqApp.exe"
 
-DownloadMission mission = new DownloadMission(qQString,saveDirectory, newName);
+DownloadMission mission = new DownloadMission(qqApp,saveDirectory, newName);
 
 //Step2: deliver this mission to manager
 
